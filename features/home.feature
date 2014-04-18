@@ -9,8 +9,9 @@ Feature: Homepage
 
   @api @javascript
   Scenario: See "Add Content"
-    Given I am logged in as a user with the "authenticated user" role
+    Given I am logged in as a user with the "administrator" role
       And I am on the homepage
     Then I should see "Add content"
     When I click "Add content"
+    And I wait for "3" seconds
     Then I should see "Use basic pages for your static content"
