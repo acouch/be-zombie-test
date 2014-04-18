@@ -9,7 +9,7 @@ default:
       javascript_session: zombie
       #javascript_session: 'selenium2'
       zombie:
-        node_modules_path: /home/travis/acouch/be-zombie-test/node_modules/ 
+        node_modules_path: /home/travis/build/acouch/be-zombie-test/node_modules/ 
         auto_server: false
       files_path: "files"
     Drupal\DrupalExtension\Extension:
