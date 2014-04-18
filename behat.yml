@@ -6,8 +6,8 @@ default:
       zombie: ~
       base_url: http://127.0.0.1:8888
       default_session: 'goutte'
-      #javascript_session: zombie
-      javascript_session: 'selenium2'
+      javascript_session: zombie
+      #javascript_session: 'selenium2'
       zombie:
         node_modules_path: /home/travis/build/acouch/be-zombie-test/node_modules/ 
         auto_server: false
